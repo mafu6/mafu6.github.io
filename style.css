@@ -118,6 +118,23 @@ h2{
     height:auto;
     border:solid 1px;
 }
+.profile{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: 'Slabo 27px', serif;
+    display: flex;
+    flex-wrap:wrap;
+}
+.soft{
+	width: calc(100%/3);
+	padding:0 5px;
+    box-sizing:border-box;
+    font-size: 20px;
+}
+.soft p{
+    font-size: 17px;
+}
 
 .follow-me{
     text-align: center;
