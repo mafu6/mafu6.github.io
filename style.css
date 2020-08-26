@@ -98,11 +98,19 @@ h2{
     width:60%;
 }
 
+.comment{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    font-family:sans-serif;
+}
+
 .item0{
     width: calc(100%/2);
     padding:0 5px;
     box-sizing:border-box;
 }
+
 .item0 img{
     max-width: 100%;
     height:auto;
