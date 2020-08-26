@@ -86,6 +86,7 @@ h2{
 .container{
     display: flex;
     flex-wrap:wrap;
+    overflow: hidden;
 }
 
 .container1{
