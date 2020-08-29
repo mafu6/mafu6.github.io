@@ -18,6 +18,8 @@ body{
     flex-direction: row;
     justify-content:center;
     width:100%;
+    position:fixed;
+    background-color: rgb(7, 7, 7);
 }
 
 .item{
@@ -72,17 +74,31 @@ h2{
     overflow: hidden;
 }
 
+main{
+    width:90%;
+}
+
+
+p{
+    color:white;
+}
+
+.aside{
+    display: flex;
+}
+
 .container1{
     display: flex;
     flex-wrap:wrap;
     margin:10px auto;
-    width:60%;
+    width:50%;
 }
+
 
 .comment{
     text-align:center;
     color:rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 20px;
     font-family:sans-serif;
 }
 
@@ -93,8 +109,9 @@ h2{
 }
 
 .item0 img{
-    max-width: 100%;
-    height:auto;
+    width: 100%;
+    height:300px;
+    object-fit: cover;
     border:solid 1px;
 }
 
@@ -110,6 +127,8 @@ h2{
     height:auto;
     border:solid 1px;
 }
+
+/*プロフィール以降*/
 .profile{
     text-align:center;
     color:rgb(255, 255, 255);
@@ -135,7 +154,41 @@ h2{
     color:rgb(14, 143, 248);
 }
 
-.header_layout2{
-    position:fixed;
-    background-color: rgb(7, 7, 7);
+/*日付け*/
+.day_2{
+    color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    width:100%;
+}
+.item_day{
+    font-size: 20px;
+    color:white;
+    padding:8px;
+    margin: 8px;
+    width:100%;
+    font-family:sans-serif;
+    position:relative;
+}
+.item_day::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+}
+.item_day:hover::after {
+    transform: scale(1, 1);
+}
+
+a.anchor {
+    display: block;
+    padding-top: 210px;
+    margin-top: -70px;
 }
