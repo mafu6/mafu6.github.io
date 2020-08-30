@@ -121,12 +121,34 @@ p{
 }
 
 
-.comment{
+.comment,.waku{
     text-align:center;
     color:rgb(255, 255, 255);
     font-size: 20px;
     font-family:sans-serif;
+    margin:0 auto;
+    width:60%
+
 }
+
+.comment2{
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    font-family:sans-serif;
+    margin:0 auto;
+    text-align:left;
+}
+
+
+
+.comment2 a{
+    color:rgb(128, 128, 128);
+}
+
+.waku{
+    border: 1px solid;
+}
+
 
 .item0{
     width: calc(100%/2);
