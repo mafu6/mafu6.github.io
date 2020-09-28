@@ -116,8 +116,8 @@ p{
 .container1{
     display: flex;
     flex-wrap:wrap;
-    margin:10px auto;
-    width:50%;
+    margin:100px auto;
+    width:60%;
 }
 
 
