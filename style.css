@@ -131,6 +131,9 @@ p{
 
 }
 
+.waku{
+    width:40%;
+}
 .comment2{
     color:rgb(255, 255, 255);
     font-size: 15px;
@@ -146,9 +149,17 @@ p{
 }
 
 .waku{
-    border: 1px solid;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.waku_inner{
+    margin:20px;
 }
 
+.waku_large{
+    background-color: rgb(55, 55, 80);
+    padding :50px;
+}
 
 .item0{
     width: calc(100%/2);
